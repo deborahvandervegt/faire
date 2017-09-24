@@ -1,0 +1,31 @@
+body input,
+body select,
+body li {
+  color: #00262c; }
+
+body h1 {
+  margin-top: 0;
+  padding-top: 20px; }
+
+body .toDoForm,
+body .toDoList {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto; }
+
+body .wrapper {
+  background-color: #1E88E5;
+  color: #FFFFFF; }
+  @media print {
+    body .wrapper {
+      display: none; } }
+
+body .toDoList {
+  margin-top: 20px; }
+  body .toDoList ul li span {
+    margin-left: 10px; }
+
+body .toDoForm {
+  padding-bottom: 20px; }
+  body .toDoForm button {
+    margin-top: 20px; }
